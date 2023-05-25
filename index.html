@@ -9,28 +9,35 @@
     <link rel="stylesheet" href="/Css/style.css">
     <link rel="stylesheet" href="/Css/burbujas.css">
 </head>
-<body>
-  <header class="bg_animate">
-    <div class="header_nav">
-        <div class="contenedor">
-            <h1>Developer. Jose Sandoval</h1>
-            <nav>
-                <a class="llamanos" href="#">Home</a>
-                <a class="llamanos" href="/proyectos.html">Proyects</a>
-                <a class="llamanos" href="mailto:contact.josesandoval@gmail.com">Contact</a>
-            </nav>
+<body class="bg_animate container">
+    <div class="row">
+        <div class="header_nav navbar col">
+            <div class="contenedor">
+                <h1>Developer. Jose Sandoval</h1>
+                <nav>
+                    <a class="llamanos" href="#">Home</a>
+                    <a class="llamanos" href="/proyectos.html">Proyects</a>
+                    <a class="llamanos" href="mailto:contact.josesandoval@gmail.com">Contact</a>
+                </nav>
+            </div>
         </div>
-    </div>
+    </div>    
 
-    <section class="banner contenedor">
-        <secrion class="banner_title">
-            <h2> I am a informatic engineer.<br>-Web development -Cybersecurity  </h2>
-            <a href="mailto:contact.josesandoval@gmail.com" class="llamanos">Contact me!</a>
-        </secrion>
-        <div class="banner_img">
-            <img src="/Img/hacker.png" alt="">
-        </div>
-    </section>
+        <section class="banner contenedor row">
+            <section class="banner_title col-8">
+                <h2> I am a informatic engineer.
+                    <br>
+                    <ul>
+                        <li>Web development</li>
+                        <li>Cybersecurity</li>
+                    </ul>
+                </h2>
+                <a href="mailto:contact.josesandoval@gmail.com" class="llamanos">Contact me!</a>
+            </section>
+            <div class="banner_img col-4">
+                <img src="/Img/hacker.png" alt="">
+            </div>
+        </section>
 
     <div class="burbujas">
         <div class="burbuja"></div>
@@ -44,7 +51,7 @@
         <div class="burbuja"></div>
         <div class="burbuja"></div>
     </div>
-</header>
+
 
     <script src="/js/bootstrap.min.js"></script>
 </body>
